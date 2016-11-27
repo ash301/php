@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Div part-2	
+	</title>
+	<style type="text/css">
+	/*to bring container div in the center use margin */
+		
+	/*the standard dimension of a webpage is 1366 * 768 pixels */
+		.container
+		{	
+			margin: 84px 533px 84px 533px;
+			position: relative;
+			width: 300px;
+			height: 600px;
+			background-color: #4C3520;
+		}
+
+		#top-left
+		{
+			position: absolute;
+			width: 100px;
+			height: 300px;
+			background-color: blue;
+			margin:10px 190px 290px 10px;
+		}
+
+		#top-right
+		{	
+			/*to place a div inside a div make parent div's position:relative and child div's position:absolute*/
+
+			position: absolute;
+			width: 100px;
+			height: 300px;
+			background-color: blue;
+			margin:10px 10px 290px 190px;
+		}
+
+		#bottom
+		{
+
+			position: absolute;
+			width: 280px;
+			height: 200px;
+			background-color: green;
+			margin: 390px 10px 10px 10px;
+
+
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id="top-left">
+			
+
+		</div>
+
+		<div id="top-right">
+			
+
+		</div>
+
+		<div id="bottom">
+			
+		</div>
+	</div>
+</body>
+</html>
